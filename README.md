@@ -8,7 +8,7 @@ This project presents the **RTL-to-GDSII implementation and silicon tapeout of a
 
 The work involved debugging and modifying an existing Verilog RTL implementation to resolve **X-propagation observed during Gate-Level Simulation (GLS)**, followed by the complete ASIC implementation flow from RTL verification through physical design and signoff.
 
-The design successfully achieved **DRC, LVS, and Antenna Rule Check (ARC) clean signoff**, was submitted for fabrication, and the **fabricated silicon has been received from SCL**. Post-silicon functional testing is planned.
+The design successfully achieved **DRC, LVS, and Antenna Rule Check (ARC) clean signoff**, was submitted for fabrication, and the **fabricated silicon has been received from SCL**. Post-silicon testing has been completed, and the chip's functional output was verified against the expected RTL simulation results.
 
 ---
 
@@ -27,7 +27,7 @@ The design successfully achieved **DRC, LVS, and Antenna Rule Check (ARC) clean 
 | Associated Data Interface | 32-bit |
 | Physical Signoff | DRC, LVS & ARC Clean |
 | Fabrication Status | Fabricated Silicon Received |
-| Post-Silicon Testing | Pending |
+| Post-Silicon Testing | Completed — hardware output verified against RTL simulation |
 
 ---
 
@@ -123,7 +123,7 @@ The completed ASIC design was submitted for fabrication using the **SCL 180 nm C
 
 The fabricated chip has been successfully received from **Semiconductor Laboratory (SCL)**.
 
-The next phase of the project involves **post-silicon functional validation and hardware testing** of the fabricated ASIC.
+Post-silicon functional testing has been completed. The fabricated chip's output was checked against the expected RTL simulation results.
 
 ---
 
@@ -135,7 +135,7 @@ The next phase of the project involves **post-silicon functional validation and 
 - Completed synthesis, floorplanning, placement, CTS, routing, and STA
 - Achieved **DRC / LVS / ARC clean physical signoff**
 - Successfully completed **ASIC tapeout and fabrication**
-- Received fabricated silicon for post-silicon validation
+- Completed post-silicon hardware testing and verified the chip output against RTL simulation results
 
 ---
 
