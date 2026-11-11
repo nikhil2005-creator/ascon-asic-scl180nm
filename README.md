@@ -1,4 +1,4 @@
-# ascon-asic-scl180nm
+# ascon-asic-scl180nm-verilog
 RTL-to-GDSII implementation, tapeout, and fabrication of an ASCON authenticated-encryption ASIC in SCL 180 nm CMOS.
 # ASCON Authenticated Encryption ASIC — SCL 180 nm
 
